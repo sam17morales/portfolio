@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remember Who You Are | Samuel Morales</title>
+  <meta name="description" content="Case study: Remember Who You Are, an interactive Twine narrative game by Samuel Morales available to play on itch.io.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">Samuel Morales</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul id="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../work.html" class="active">Work</a></li>
+          <li><a href="work-studies.html">Work Studies</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <div class="case-hero">
+      <img
+        src="assets/images/diner.jpg"
+        width="1100" height="460">
+    </div>
+
+    <div class="case-layout fade-up">
+
+      <article class="case-body">
+        <span class="section-label">Interactive Narrative</span>
+        <h1>Remember Who You Are</h1>
+
+        <h2>Project Overview</h2>
+        <p>Remember Who You Are is an interactive narrative game built in Twine and published on itch.io. It is a branching story about identity and choice, where the decisions you make shape who the main character becomes by the end. Players can experience multiple endings depending on the path they take.</p>
+
+        <h2>The Challenge</h2>
+        <p>The challenge with interactive narrative is making every branch feel meaningful. If a choice doesn't genuinely change something, the player stops trusting the story. Every decision point in this game had to lead somewhere different, not just cosmetically but emotionally. That required mapping out the entire story as a tree before writing a single line of dialogue.</p>
+
+        <h2>My Role</h2>
+        <p>I designed and wrote the entire game. I used Twine to build the branching structure, wrote all dialogue and narration, and published the final version to itch.io. The project was completed as part of my narrative design coursework at Texas Tech.</p>
+
+        <h2>Process</h2>
+        <p>I started with a flowchart on paper mapping all the possible paths and endings. From there I built the skeleton in Twine with placeholder text, tested all the branching paths to make sure none led to dead ends, and then wrote the final dialogue. The game has four possible endings and approximately 25 unique scenes depending on your choices.</p>
+
+        <h2>Outcome</h2>
+        <p>The game is live on itch.io and has been played by students and faculty in the Creative Media program. It received positive feedback for its writing and for making the choices feel genuinely consequential. It remains my most complete example of narrative design work.</p>
+
+        <h2>What I Learned</h2>
+        <p>This project taught me that narrative design is fundamentally about architecture before it's about writing. Getting the structure right first made the writing much easier and more consistent. I also learned how Twine's passage system maps directly to how screenwriters think about scenes, which made the transition from script writing to game writing feel natural.</p>
+      </article>
+
+      <aside class="case-meta">
+        <h3>Project Details</h3>
+        <div class="case-meta-item">
+          <strong>Year</strong>
+          <span>2025</span>
+        </div>
+        <div class="case-meta-item">
+          <strong>Type</strong>
+          <span>Interactive Narrative</span>
+        </div>
+        <div class="case-meta-item">
+          <strong>Role</strong>
+          <span>Writer & Designer</span>
+        </div>
+        <div class="case-meta-item">
+          <strong>Tools</strong>
+          <span>Twine, itch.io</span>
+        </div>
+        <div class="case-meta-item">
+          <strong>Play It</strong>
+          <a href="https://sammorales17.itch.io/remember-who-you-are" target="_blank" rel="noopener noreferrer">sammorales17.itch.io &rarr;</a>
+        </div>
+      </aside>
+
+    </div>
+
+    <div class="case-images">
+      <img
+        src="https://cdn.myportfolio.com/c4cba534-cc92-4778-b085-3d8a504c7a8b/c4ed1c3c-2672-4269-93e5-15e51e6dfe48_rwc_0x78x640x480x32.jpg?h=1b4bf33cf5322a26c61258a5fbd9836c"
+        alt="The Bends screenplay thumbnail"
+        width="500" height="260"
+        loading="lazy">
+      <img
+        src="https://cdn.myportfolio.com/c4cba534-cc92-4778-b085-3d8a504c7a8b/4badf672-c8d0-485c-92ef-d5c8d9b4e235_rwc_0x147x1200x900x32.jpg?h=5e49163578afb5a39a1c4b93b5b93d5e"
+        alt="Texas Tech Hype Video thumbnail"
+        width="500" height="260"
+        loading="lazy">
+    </div>
+
+    <div class="case-nav container">
+      <a href="project-two.html">&larr; Previous Project</a>
+      <a href="../work.html">Back to All Work &rarr;</a>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-logo">Samuel Morales</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../about.html">About</a>
+        <a href="../work.html">Work</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+      <span class="footer-copy">&copy; 2026 Samuel Morales</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+      document.getElementById('nav-list').classList.toggle('nav-open');
+    });
+  </script>
+
+</body>
+</html>
